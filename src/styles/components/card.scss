@@ -1,0 +1,23 @@
+.card{
+    width: 250px;
+    height: 310px;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: rgba(211, 211, 211, 0.314);
+    justify-content: space-between;
+    margin-top: 20px;
+    img{
+        width: 70%;
+        height: 50%;
+        margin: 0px 30px;
+    }
+    p{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    span{
+        font-size: 25px;
+        font-weight: 700;
+        margin: 3px;
+    }
+}
