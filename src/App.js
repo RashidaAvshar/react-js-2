@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Card from "./components/Cards";
 import { data } from "./mockdata";
+import Button from "./components/Button";
 
 
 function App() {
@@ -17,6 +18,12 @@ function App() {
           />
         ))}
       </div>  
+      <div className="button-group">
+
+      </div>
+      <Button title="success" className="primary"/>
+      <Button title="cancel" className="secondary"/>
+
     </div>
   );
 }
